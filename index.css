@@ -1,0 +1,21 @@
+form .form-row {
+    padding: 5px 0;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form button[type=submit] {
+    margin-top: 10px;
+    padding: 4px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 14px
+}
+
+form button[type=submit]:disabled {
+    background-color: gray;
+}
