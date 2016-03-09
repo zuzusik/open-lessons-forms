@@ -7,7 +7,7 @@
   <title>Форма реєстрації</title>
 </head>
 <body>
-  <form action="http://localhost/api/users" method="post">
+  <form action="/api/users" method="post">
     <div class="form-row">
       <label for="name">Name: </label><br/>
       <input type="text" id="name" name="name" required>
@@ -22,8 +22,8 @@
       <input type="radio" name="gender" value="female"> Female
     </div>
     <div class="form-row">
-      <label for="photo" name="photo">Photo: </label><br/>
-      <input type="file" id="photo">
+      <label for="photo">Photo: </label><br/>
+      <input type="file" id="photo" name="photo">
     </div>
     <button type="submit" name="submit">Submit</button>
   </form>
